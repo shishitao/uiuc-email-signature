@@ -2,6 +2,10 @@
 
 This repository contains an HTML-based email signature template designed to comply with the [UIUC Email Signature Guidelines](https://brand.illinois.edu/applying-the-brand/email-signature). It allows you to easily create a professional, branded email signature by simply copying and editing the source code.
 
+Here’s an example of how your email signature will look once rendered:
+
+![image](https://github.com/user-attachments/assets/de0b3fea-0601-4ae9-af68-7f53eb9c3f5a)
+
 ## How to Use
 
 1. **Copy and Paste HTML Code**
