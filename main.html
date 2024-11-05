@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+    <style>
+        /* Basic reset and styling */
+        body, table, td, a {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            color: #13294B;
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            border: none;
+            display: inline-block;
+        }
+        
+        .signature-container {
+            max-width: 600px;
+            padding: 10px;
+        }
+
+        .name {
+            font-size: 11pt;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .position {
+            font-style: italic;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+        }
+
+        .contact-info a {
+            color: #13294B;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons a {
+            display: inline-block; /* Ensures the icons are treated as inline-blocks */
+            margin-right: 16px; /* Controls spacing between icons */
+            text-decoration: none; /* Removes the default underline from links */
+        }
+
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .footer {
+            margin-top: 15px;
+            font-size: 9pt;
+            color: #666666;
+        }
+
+        .university-logo {
+            width: 180px;
+            height: 34px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signature-container">
+        <!-- Name and Position -->
+        <div class="name">First Last</div>
+        <div class="position">Position Title</div>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p>University of Illinois Urbana-Champaign<br>
+               College Title<br>
+               Department Title<br>
+               Address Line 1 | M/C XXX<br>
+               City, State, Zip Code<br>
+               XXX-XXX-XXXX | <a href="mailto:email@illinois.edu">email@illinois.edu</a><br>
+               <a href="https://illinois.edu">illinois.edu</a>
+            </p>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">
+                <img src="https://webservices.illinois.edu/webservices/public/ds/sig-facebook.png?r=6" alt="Facebook">
+            </a>
+            <a href="https://x.com/" target="_blank">
+                <img src="https://webservices.illinois.edu/webservices/public/ds/sig-twitterX.png?r=6" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="https://webservices.illinois.edu/webservices/public/ds/sig-instagram.png?r=6" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="https://webservices.illinois.edu/webservices/public/ds/sig-linkedin.png?r=6" alt="LinkedIn">
+            </a>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <img src="https://webservices.illinois.edu/webservices/public/ds/sig-tiktok.png?r=6" alt="TikTok">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="https://webservices.illinois.edu/webservices/public/ds/sig-youtube.png?r=6" alt="YouTube">
+            </a>
+            <a href="https://www.github.com/" target="_blank">
+                <img src="https://raw.githubusercontent.com/shishitao/uiuc-email-signature/refs/heads/main/icon/sig-github.png" alt="GitHub">
+            </a>
+        </div>
+
+        <!-- University Logo -->
+        <p>
+            <a href="http://illinois.edu/" target="_blank">
+                <img class="university-logo" src="https://webtools.illinois.edu/webservices/js/ds/signature_logo_180.png" alt="University of Illinois Urbana-Champaign Home">
+            </a>
+        </p>
+
+        <!-- Disclaimer -->
+        <div class="footer">
+            <i>Under the Illinois Freedom of Information Act, any written communication to or from university employees regarding university business is a public record and may be subject to public disclosure.</i>
+        </div>
+    </div>
+</body>
+</html>
